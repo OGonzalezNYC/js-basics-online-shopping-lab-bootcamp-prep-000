@@ -49,8 +49,6 @@ function removeFromCart(item) {
     return cart 
   }
  }
- // else {
- //   return "That item is not in your cart."
 
 //else {
   //  return "That item is not in your cart."
