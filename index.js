@@ -43,10 +43,12 @@ function total() {
 }
 
 function removeFromCart(item) {
-  let index = 0; index < cart.length; index++
+  var index = 0;
+  while (index < cart.length)
   if (cart[index].itemName === item) {
     cart.splice(index, 1)
     return cart
+    index++
   }
   else {
     return "That item is not in your cart."
